@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 32px;
-}
+}   
 
 .comments {
     display: flex;
@@ -12,9 +12,15 @@
     margin: 0px 100px;
 }
 
-.containerDev{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
 }
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
